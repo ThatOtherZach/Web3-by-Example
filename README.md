@@ -11,6 +11,7 @@ I used a Ubuntu server to test these, you will need either a similiar setup or y
 
 - Node.js (8.7.0)
 - Web3 Module (1.0.0)
+- ethereumjs-tx (1.3.3), required for [Send Ether Transaction](https://github.com/TXTCLASS/Web3byExample/wiki/Send-Ether-Transaction)
 - *OPTIONAL* Geth (1.7.1 or the latest version)
 
 You can use npm to install Node and Web3. Geth will require a little extra TLC, so I suggest you instead get an [Infura API](https://infura.io/) token to use, its free and you'll get full access to the Ethereum blockchain without actually running your own node.
