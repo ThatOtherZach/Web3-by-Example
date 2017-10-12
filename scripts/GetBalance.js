@@ -1,5 +1,7 @@
 /*
 A simple script that defines an address, gets the balance of it and then converts it to Ether before showing the result in the console.
+
+For an explanation of this code, navigate to this url https://github.com/TXTCLASS/Web3byExample/blob/master/scripts/GetBalance.md
 */
 
 // Require the web3 node module.
