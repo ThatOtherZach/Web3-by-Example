@@ -22,7 +22,7 @@ I'm going to assume you know at least the basics of what Ethereum is and what te
 
 To execute you simply use the console in run ```node example-script.js``` and the results will be printed in the console.
 
-In addition each script has a markdown file with the same name. In there you'll find an explanation of whats happening, this was done for the really noobish among us (myself included) can see what exactly is happening.
+In addition each script has a [github repo wiki page](https://github.com/TXTCLASS/Web3byExample/wiki). In there you'll find an explanation of whats happening, this was done so the really noobish among us (myself included) can see what exactly is happening.
 
 ## Additional Notes
 Web3 1.0.0 is at the time of this edit, beta. I actually have no idea why when I installed it it chose to use the beta version, probably an error on my part. That being said, it does work so while it may not be ideal for production it should suit the needs of someone who just wants to learn and run a few scripts. 
