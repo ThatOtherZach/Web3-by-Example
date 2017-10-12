@@ -21,7 +21,7 @@ var Tx = require('ethereumjs-tx');
 var privateKey = new Buffer('YOUR-PRIVATE-KEY-HERE', 'hex');
 
  // The reciviing address of the transaction
-var recivingAddr = ('0x9Ff24857b990a8d036D0973d9a0825A76C2c8723');
+var receivingAddr = ('0x9Ff24857b990a8d036D0973d9a0825A76C2c8723');
 
 // Value to be sent, converted to wei and then into a hex value
 var txValue = web3.utils.numberToHex(web3.utils.toWei('0.1', 'ether'));
@@ -33,7 +33,7 @@ var rawTx = {
   nonce: '0x0', // Nonce is the times the address has transacted, should always be higher than the last nonce 0x0#
   gasPrice: '0x14f46b0400', // Normal is '0x14f46b0400' or 90 GWei
   gasLimit: '0x55f0', // Limit to be used by the transaction, default is '0x55f0' or 22000 GWei
-  to: recivingAddr, // The receiving address of this transaction
+  to: receivingAddr, // The receiving address of this transaction
   value: txValue, // The value we are sending '0x16345785d8a0000' which is 0.1 Ether
   data: txData // The data to be sent with transaction, '0x6f6820686169206d61726b' or 'oh hai mark' 
 }
