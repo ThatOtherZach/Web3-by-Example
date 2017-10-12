@@ -16,6 +16,8 @@ I used a Ubuntu server to test these, you will need either a similiar setup or y
 You can use npm to install Node and Web3. Geth will require a little extra TLC, so I suggest you instead get an [Infura API](https://infura.io/) token to use, its free and you'll get full access to the Ethereum blockchain without actually running your own node.
 
 ## Running Scripts
+I'm going to assume you know at least the basics of what Ethereum is and what terms like Address, transaction hash/ID, and tokens means. If not, you may want to read up on that before anything else. I've left place holder text in place of where you will need real Ethereum value; you can either use your own or just grab a random one from a block explorer like [etherscan.io](http://etherscan.io/)
+
 To execute you simply use the console in run ```node example-script.js``` and the results will be printed in the console.
 
 ## Additional Notes
