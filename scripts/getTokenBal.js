@@ -34,7 +34,7 @@ var contractData = ('0x70a08231000000000000000000000000' + tknAddress);
 web3.eth.call({
     to: contractAddr, // Contract address, used call the token balance of the address in question
     data: contractData // Combination of contractData and tknAddress, required to call the balance of an address 
-}, function(err, result) {
+    }, function(err, result) {
 	if (result) { 
 		var tokens = web3.utils.toBN(result).toString(); // Convert the result to a usable number string
 		console.log('Tokens Owned: ' + web3.utils.fromWei(tokens, 'ether')); // Change the string to be in Ether not Wei, and show it in the console
