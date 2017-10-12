@@ -30,7 +30,7 @@ web3.eth.getTransaction(ethTx, function(err, result) {
 
 web3.eth.getTransaction(ethTx, function(err, result) {
 	if (!err) {
-    console.log(result); // All the transaction info
+    		console.log(result); // All the transaction info
 	}
 	else {
 		console.log('Error!', err); // Dump errors here
