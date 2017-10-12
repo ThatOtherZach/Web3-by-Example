@@ -31,4 +31,4 @@ I really did want to make a website with these and have the results show up on t
 
 Again, not a developer. If there is something wrong with what I wrote here or with a script, please call me out on it or request to change it. I hope this is able to help other newbies learn more about Ethereum and the only way that's going to happen is with help from more competent developers.
 
-Ĝis Poste, TXTCLASS.
+Ĝis Poste.
