@@ -23,11 +23,9 @@ var addr = ('ETHEREUM-ADDRESS-HERE');
 console.log('Address:', addr);
 ```
 
-Now the first console.log isn't really necessary, but it looks nice in the console. Following that we define a variable addr as the Ethereum
-address. Now you don't need to do this, but should it makes the code later on a little easier to read.
+Now the first ```console.log``` isn't really necessary, but it looks nice in the console. Following that we define a variable ```addr``` as the Ethereum address. Now you don't need to do this, but should it makes the code later on a little easier to read.
 
-Plus I was told it was good practice to write easily editable code, and while this ins't exactly a trading engine, it makes life easier for noobs like myself.
-Following that we just write the address in the console with the text "Address" beside it. Again not neccast, but it make it look pretty.
+Plus I was told it was good practice to write easily editable code, and while this ins't exactly a trading engine, it makes life easier for noobs like myself. Following that we just write the address in the console with the text "Address" beside it. Again not required, but it makes it look pretty.
 
 ---
 
@@ -40,10 +38,7 @@ web3.eth.getBalance(addr, function (error, result) {
 });
 ```
 
-Now the fun begins... We tell web3 to get the balance of the address and then return either an error or a result. The result by default will
-be in Wei, a 19 digit number. This is the lowest and most percise way to measure Ethereums token of value. To convert it into the more
-common denomination everyone likes (Ether), we can use fromWei and then specify what we want back, in this case its 'ether'. Once thats
-all said and done we write it to the console and call it a day.
+Now the fun begins... We tell web3 to get the balance via ```getBalance``` of the address and then return either an error or a result. The result by default will be in Wei, a 19 digit number. This is the lowest and most percise way to measure Ethereum's token of value. To convert it into the more common denomination everyone likes (aka Ether), we can use ```fromWei``` and then specify what we want back, in this case its ```'ether'```. Once thats all said and done we write it to the console and call it a day.
 
 And thats it. If you run the script you should get something like this:
 
