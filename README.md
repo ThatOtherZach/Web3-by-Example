@@ -13,7 +13,7 @@ I used a Ubuntu server to test these, you will need either a similiar setup or y
 - Web3 Module (1.0.0)
 - *OPTIONAL* Geth (1.7.1 or the latest version)
 
-You can use npm to install Node and Web3. Geth will require a little extra TLC, so I suggest you instead get an Infura API token to use, its free and you'll get full access to the Ethereum blockchain without actually running your own node.
+You can use npm to install Node and Web3. Geth will require a little extra TLC, so I suggest you instead get an [Infura API](https://infura.io/) token to use, its free and you'll get full access to the Ethereum blockchain without actually running your own node.
 
 ## Running Scripts
 To execute you simply use the console in run ```node example-script.js``` and the results will be printed in the console.
