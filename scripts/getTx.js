@@ -1,3 +1,9 @@
+/*
+A script that gets the transaction info from a transaction hash/ID, then shows the result in the console.
+
+For an explanation of this code, navigate to this url https://github.com/TXTCLASS/Web3byExample/blob/master/scripts/getTx.md
+*/
+
 // Get the web3 Module
 var Web3 = require('web3');
 
