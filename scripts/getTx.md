@@ -1,4 +1,4 @@
-# Get Balance
+# Get A Transaction
 A script that gets the transaction info from a transaction hash/ID, then shows the result in the console.
 
 For this example we're going to use [the script located here](https://github.com/TXTCLASS/Web3byExample/blob/master/scripts/getTx.js).
