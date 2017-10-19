@@ -1,7 +1,7 @@
 /*
 A script that gets the transaction info from a transaction hash/ID, then shows the result in the console.
 
-For an explanation of this code, navigate to the wiki https://github.com/TXTCLASS/Web3byExample/wiki/Get-Transaction
+For an explanation of this code, navigate to the wiki https://github.com/ThatOtherZach/Web3byExample/wiki/Get-Transaction
 */
 
 // Get the web3 Module
