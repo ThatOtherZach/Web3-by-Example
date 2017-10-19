@@ -9,10 +9,10 @@ This proved to be quite the challenge, as previously stated I'm not a developer.
 ## Set Up
 I used a Ubuntu server to test these, you will need either a similiar setup or you can use your own machine. I don't want (nor am I able to) describe how to get your system ready only that you will need to install the following:
 
-- Node.js (8.7.0)
-- Web3 Module (1.0.0)
-- ethereumjs-tx (1.3.3), required for [Send Ether Transaction](https://github.com/TXTCLASS/Web3byExample/wiki/Send-Ether-Transaction)
-- *OPTIONAL* Geth (1.7.1 or the latest version)
+- [Node.js (8.7.0 or later)](https://nodejs.org/en/)
+- [Web3 Module (1.0.0)](https://github.com/ethereum/web3.js/)
+- [ethereumjs-tx (1.3.3)](https://github.com/ethereumjs/ethereumjs-tx), required for [Send Ether Transaction](https://github.com/ThatOtherZach/Web3byExample/wiki/Send-Ether-Transaction)
+- [Geth (1.7.1 or later)](https://github.com/ethereum/go-ethereum/wiki/geth) *OPTIONAL* 
 
 You can use npm to install Node and Web3. Geth will require a little extra TLC, so I suggest you instead get an [Infura API](https://infura.io/) token to use, its free and you'll get full access to the Ethereum blockchain without actually running your own node.
 
@@ -23,7 +23,7 @@ I'm going to assume you know at least the basics of what Ethereum is and what te
 
 To execute you simply use the console in run ```node example-script.js``` and the results will be printed in the console.
 
-In addition each script has a [github repo wiki page](https://github.com/TXTCLASS/Web3byExample/wiki). In there you'll find an explanation of whats happening, this was done so the really noobish among us (myself included) can see what exactly is happening.
+In addition each script has a [github repo wiki page](https://github.com/ThatOtherZach/Web3byExample/wiki). In there you'll find an explanation of whats happening, this was done so the really noobish among us (myself included) can see what exactly is happening.
 
 ## Additional Notes
 Web3 1.0.0 is at the time of this edit, beta. I actually have no idea why when I installed it it chose to use the beta version, probably an error on my part. That being said, it does work so while it may not be ideal for production it should suit the needs of someone who just wants to learn and run a few scripts. 
