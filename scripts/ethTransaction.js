@@ -5,7 +5,7 @@ WARNING!
 If executed this script will send ether, be sure the info is correct before you run this!
 Alternatively you should use a test net with test ether first before running this on the main net.
 
-For an explanation of this code, navigate to the wiki https://github.com/ThatOtherZach/Web3byExample/wiki/Send-Ether-Transaction
+For an explanation of this code, navigate to the wiki https://github.com/ThatOtherZach/Web3-by-Example/wiki/Send-Ether-Transaction
 */
 
 // Add the web3 node module
