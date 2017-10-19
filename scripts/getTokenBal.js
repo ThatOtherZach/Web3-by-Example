@@ -3,7 +3,7 @@ A script that gets the token balance of an address using the address and the tok
 
 This script will only get the tokens from the contract we specify, be sure your queried address has tokens from the contract you specify.
 
-For an explanation of this code, navigate to the wiki https://github.com/ThatOtherZach/Web3byExample/wiki/Get-Token-Balance
+For an explanation of this code, navigate to the wiki https://github.com/ThatOtherZach/Web3-by-Example/wiki/Get-Token-Balance
 */
 
 // Add the web3 node module
