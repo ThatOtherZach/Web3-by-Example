@@ -25,5 +25,5 @@ var addr = "CONTRACT-ADDRESS";
 var EbolaContract = new web3.eth.Contract(abi, addr);
 
 // Put it all together in a call and return the result to the console
-// FUNCTION must the name of the function you wan to call.
+// FUNCTION must the name of the function you want to call.
 EbolaContract.methods.FUNCTION().call().then(console.log);
