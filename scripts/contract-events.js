@@ -32,8 +32,8 @@ console.log('-----------------------------------');
 // Search the contract events for the hash in the event logs and show matching events.
 contract.getPastEvents('Event1', {
 	filter: {_from: addr},
-    fromBlock: 0,
-    toBlock: 'latest'
+	fromBlock: 0,
+	toBlock: 'latest'
 	}, function(error, events){
 		//console.log(events);
 		for (i=0; i<events.length; i++) {
