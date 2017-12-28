@@ -1,7 +1,7 @@
 /*
 A script that returns some filtered events from an Ethereum smart contract.
 
-Your contract will have to require a solidity event and it will need to be triggered at least once before you run the script.
+Your contract will require a solidity event and it will need to be triggered at least once before you run the script.
 
 For an explanation of this code, navigate to the wiki https://github.com/ThatOtherZach/Web3-by-Example/wiki/Getting-Smart-Contract-Events
 */
