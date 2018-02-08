@@ -18,7 +18,7 @@ You can use npm to install Node and Web3. Geth will require a little extra TLC, 
 
 It is also a fantastic idea to have the Web3 documentation open so you can get more information on functions and other things that may be useful; you can find that here: http://web3js.readthedocs.io/en/1.0/getting-started.
 
-One finial note, if you start playing around with ether (aka money) it would be a wise idea to lock down your local wallet and your system in general. Crypto is fun, but it can also be a total sh!t show especially if you're operating on an insecure computer. Just a heads up... Don't say I didn't warn you.
+One finial note, if you start playing around with ether (aka money) it would be a wise idea to lock down your local wallet and your system in general. Crypto is fun, but it can also be a total sh!t show especially if you're operating on an unsecure computer. Just a heads up... Don't say I didn't warn you.
 
 ## Running Scripts
 I'm going to assume you know at least the basics of what Ethereum is and what terms like "Address", "transaction hash/ID", and what "ERC-20 tokens" means. If not, you may want to read up on that before anything else. I've left placeholder text in place of where you will need real Ethereum value(s); you can either use your own or just grab a random one from a block explorer like [etherscan.io](http://etherscan.io/).
