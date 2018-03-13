@@ -22,8 +22,8 @@ var abi = ABI-JSON-INTERFACE;
 var addr = "CONTRACT-ADDRESS";
 
 // Build a new variable based on the Web3 API including the ABI and address of the contract
-var EbolaContract = new web3.eth.Contract(abi, addr);
+var Contract = new web3.eth.Contract(abi, addr);
 
 // Put it all together in a call and return the result to the console
 // FUNCTION must the name of the function you want to call.
-EbolaContract.methods.FUNCTION().call().then(console.log);
+Contract.methods.FUNCTION().call().then(console.log);
